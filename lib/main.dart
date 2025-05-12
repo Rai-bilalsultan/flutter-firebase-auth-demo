@@ -8,13 +8,7 @@ import 'auth/home_page.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
-    options: const FirebaseOptions(
-      apiKey: "AIzaSyDnamObbd0BSZkaTbtVaEWGkhO_vykWpFU",
-      appId: "1:168387735218:android:9633c2fdf109213a7aa3ab",
-      messagingSenderId: "YOUR_SENDER_ID",
-      projectId: "fir-auth-34b24",
-      authDomain: "YOUR_AUTH_DOMAIN",
-      storageBucket: "fir-auth-34b24.firebasestorage.app",
+   
     ),
   );
   runApp(const MyApp());
